@@ -65,7 +65,7 @@ class Ui_Form(object):
     def extract_apk_file(self):
         self.checkboxstate()
         os.system('python gameInformation.py {}'.format(self.textEdit.toPlainText()))
-        os.system('python resource.py {}'.format(self.textEdit.toPlainText()))
+        os.system('python phi_resource.py {}'.format(self.textEdit.toPlainText()))
     def build_pez_file(self):
         os.system('python phira.py')
     def retranslateUi(self, Form):
