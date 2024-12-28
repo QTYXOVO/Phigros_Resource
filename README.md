@@ -62,7 +62,5 @@ cd Phigros_Resource
 python gameInformation.py Phigros.apk
 python resource.py Phigros.obb
 ```
-## 生成自制谱文件s
-=======
 # 生成自制谱文件
 `python phira.py`
