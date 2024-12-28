@@ -1,6 +1,3 @@
-[音乐文件](../../tree/music)
-
-生成适配Phira的pez自制谱文件
 # 介绍
 `gameInformation.py`可从apk获取定数表，tips，收藏品id，头像id，曲id，曲名，曲师，画师，谱师
 定数表输出为difficulty.tsv，收藏品输出为collection.tsv，头像输出为avatar.txt，tips输出为tips.txt，其余输出为info.tsv
@@ -26,7 +23,6 @@ side_story = 0
 TYPES section为设定你需要哪些种类的资源，见README.md开头
 当UPDATE section全为0时，默认获取全部歌曲的资源
 当UPDATE section不是全为0时，会通过difficulty.tsv获取最近的歌曲，当Phigros更新时使用，更新了哪个部分，更新了几首，运行resource.py时只会提取最近几首的资源
-# 使用示例
 ## 准备环境
 ```shell
 pkg install libjpeg-turbo //非Termux不需要这个
